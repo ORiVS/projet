@@ -1,0 +1,58 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    padding-bottom: 30px;
+    background-color: #1f2039;
+    color: aliceblue;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+p{
+    text-align: center;
+    height: 60px;
+}
+
+.right{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 300px;
+}
+
+.left{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 300px;
+}
+
+main{
+    text-align: center;
+}
+
+.confirm{
+    background-color: #1f2039;
+    color: white;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
+  
+input:valid {
+    border: 1px solid black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
